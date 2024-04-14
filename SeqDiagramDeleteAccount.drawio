@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" modified="2024-04-14T10:42:56.066Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="y8Ibf0zNd9bE7vq5hdzr" version="24.2.3" type="device">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_TTP3-iq6oqp4X2zeWUQ-2" value="BankAccounts" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="325" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTP3-iq6oqp4X2zeWUQ-3" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="650" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTP3-iq6oqp4X2zeWUQ-5" value="BankAccounts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="325" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTP3-iq6oqp4X2zeWUQ-6" value="Database" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="650" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTP3-iq6oqp4X2zeWUQ-7" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+          <mxGeometry x="60" y="40" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTP3-iq6oqp4X2zeWUQ-8" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="320" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTP3-iq6oqp4X2zeWUQ-9" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;elbow=vertical;entryX=0;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="_TTP3-iq6oqp4X2zeWUQ-11" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="69.5" y="100" as="sourcePoint" />
+            <mxPoint x="360" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TTP3-iq6oqp4X2zeWUQ-10" value="deleteBankAccount(accountId)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_TTP3-iq6oqp4X2zeWUQ-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.118" y="-5" relative="1" as="geometry">
+            <mxPoint x="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TTP3-iq6oqp4X2zeWUQ-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="365" y="90" width="20" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="5kaEUU9AUvQgQ5munxhm-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="690" y="90" width="20" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTP3-iq6oqp4X2zeWUQ-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="370" y="110" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTP3-iq6oqp4X2zeWUQ-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="680" y="110" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTP3-iq6oqp4X2zeWUQ-15" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_TTP3-iq6oqp4X2zeWUQ-13" target="_TTP3-iq6oqp4X2zeWUQ-14" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="270" as="sourcePoint" />
+            <mxPoint x="500" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TTP3-iq6oqp4X2zeWUQ-16" value="SELECT * FROM bank_accounts WHERE id = ?" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_TTP3-iq6oqp4X2zeWUQ-15" vertex="1" connectable="0">
+          <mxGeometry x="-0.1231" relative="1" as="geometry">
+            <mxPoint x="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TTP3-iq6oqp4X2zeWUQ-17" value="return (Answer)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="_TTP3-iq6oqp4X2zeWUQ-14" target="_TTP3-iq6oqp4X2zeWUQ-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="250" as="sourcePoint" />
+            <mxPoint x="350" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TTP3-iq6oqp4X2zeWUQ-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="370" y="200" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTP3-iq6oqp4X2zeWUQ-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="680" y="200" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTP3-iq6oqp4X2zeWUQ-21" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" parent="1" source="_TTP3-iq6oqp4X2zeWUQ-19" target="_TTP3-iq6oqp4X2zeWUQ-20" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="310" y="250" as="sourcePoint" />
+            <mxPoint x="470" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TTP3-iq6oqp4X2zeWUQ-23" value="DELETE FROM bank_accounts WHERE id = ?" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_TTP3-iq6oqp4X2zeWUQ-21" vertex="1" connectable="0">
+          <mxGeometry x="0.0733" y="-4" relative="1" as="geometry">
+            <mxPoint x="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TTP3-iq6oqp4X2zeWUQ-22" value="Deletion successful" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="_TTP3-iq6oqp4X2zeWUQ-20" target="_TTP3-iq6oqp4X2zeWUQ-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="250" as="sourcePoint" />
+            <mxPoint x="350" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TTP3-iq6oqp4X2zeWUQ-24" value="return (Answer True)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=-0.05;exitY=0.919;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="_TTP3-iq6oqp4X2zeWUQ-11" target="_TTP3-iq6oqp4X2zeWUQ-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="250" as="sourcePoint" />
+            <mxPoint x="350" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
